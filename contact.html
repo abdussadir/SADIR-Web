@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | MD Abdus Sadir</title>
+  <meta name="description" content="Contact MD Abdus Sadir for web development projects." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="index.html">Sadir<span>.</span></a>
+      <input class="nav-check" type="checkbox" id="nav-check" />
+      <label class="nav-button" for="nav-check" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="services.html">Services</a>
+        <a class="active" href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">Contact</p>
+      <h1>Let us talk about your website.</h1>
+      <p>Send a message with your idea, page count, and deadline. I will reply as soon as possible.</p>
+    </section>
+
+    <section class="section contact-layout">
+      <div class="contact-info">
+        <p class="eyebrow">Reach me</p>
+        <h2>Contact details.</h2>
+        <div class="contact-list">
+          <a href="mailto:sadir8042@gmail.com"><strong>Email</strong><span>sadir8042@gmail.com</span></a>
+          <a href="tel:+8801892401503"><strong>Phone</strong><span>+8801892401503</span></a>
+          <div><strong>Location</strong><span>Dhaka-1236, Bangladesh</span></div>
+        </div>
+      </div>
+
+      <form class="contact-form" action="mailto:sadir8042@gmail.com" method="post" enctype="text/plain">
+        <label>
+          Your Name
+          <input type="text" name="name" placeholder="Enter your name" required />
+        </label>
+        <label>
+          Email Address
+          <input type="email" name="email" placeholder="Enter your email" required />
+        </label>
+        <label>
+          Project Type
+          <select name="project">
+            <option>Portfolio Website</option>
+            <option>Landing Page</option>
+            <option>Business Website</option>
+            <option>Website Fix</option>
+          </select>
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="6" placeholder="Tell me what you need"></textarea>
+        </label>
+        <button class="btn primary" type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>MD Abdus Sadir</strong>
+      <p>Web Developer from Dhaka</p>
+    </div>
+    <p>&copy; 2026. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
